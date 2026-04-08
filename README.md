@@ -1,2 +1,1 @@
-# AgriYield-AI
-Système d'irrigation intelligent et diagnostic agronomique basé sur l'IA et l'IoT.
+Système intelligent d'irrigation et de prévention des carences nutritives. Notre IA est prédictive — elle détecte le risque de carence avant l'apparition des symptômes visuels.
