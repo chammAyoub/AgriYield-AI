@@ -15,3 +15,17 @@ Contrairement aux systèmes classiques basés sur la simple détection, **notre 
 * **Backend & API :** Python, FastAPI, SQLite
 * **Intelligence Artificielle :** Scikit-learn, XGBoost, Pandas
 * **Frontend Mobile :** React Native, Expo
+
+---
+
+## 👨‍💻 Équipe et Contributeurs
+Ce projet est le fruit d'une collaboration multidisciplinaire, fusionnant les expertises de trois filières d'ingénierie distinctes :
+
+* **Ayoub Chammakh (Ingénierie Logicielle - IL) :** * *Rôle :* Full-Stack & Software Architect.
+  * *Contributions :* Modélisation UML, développement du Cerveau Cloud (Backend FastAPI) et de l'Application Mobile (React Native).
+  
+* **Chouaib Mediana (ADIA) :** * *Rôle :* Data Scientist & AI Engineer.
+  * *Contributions :* Collecte, nettoyage et préparation du Dataset, conception, entraînement et évaluation du Modèle d'Intelligence Artificielle prédictif.
+  
+* **Aya Aamer (IISE) :** * *Rôle :* Embedded Systems Engineer.
+  * *Contributions :* Conception de l'architecture matérielle, simulation du circuit électronique sur Proteus et développement du code embarqué (C/C++ Arduino).
