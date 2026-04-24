@@ -12,6 +12,11 @@ frontend/.env.production.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/.env*
 
 # ==========================================
 # 2. HARDWARE (Arduino / Proteus - IISE)
@@ -140,3 +145,17 @@ cython_debug/
 .cursorindexingignore
 .DS_Store
 Thumbs.db
+
+# ==========================================
+# 6. REPLIT JUNK & UNUSED ARTIFACTS
+# ==========================================
+frontend/mobile-app/Attachment-Manager/.agents/
+frontend/mobile-app/Attachment-Manager/.local/
+frontend/mobile-app/Attachment-Manager/attached_assets/
+frontend/mobile-app/Attachment-Manager/scripts/
+frontend/mobile-app/Attachment-Manager/artifacts/mockup-sandbox/
+frontend/mobile-app/Attachment-Manager/artifacts/api-server/
+frontend/mobile-app/Attachment-Manager/artifacts/.replit-artifact/
+frontend/mobile-app/Attachment-Manager/.replit*
+frontend/mobile-app/Attachment-Manager/replit.md
+frontend/mobile-app/Attachment-Manager/pnpm-workspace.yaml
