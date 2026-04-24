@@ -1,0 +1,27 @@
+kind = "mobile"
+previewPath = "/"
+title = "AgriYield AI"
+version = "1.0.0"
+id = "artifacts/agriyield"
+router = "expo-domain"
+
+[[integratedSkills]]
+name = "expo"
+version = "1.0.0"
+
+[[services]]
+ensurePreviewReachable = "/status"
+name = "expo"
+paths = [ "/" ]
+localPort = 22758
+
+[services.development]
+run = "pnpm --filter @workspace/agriyield run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/agriyield", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/agriyield", "run", "serve" ]
+
+[services.env]
+PORT = "22758"
+BASE_PATH = "/"
